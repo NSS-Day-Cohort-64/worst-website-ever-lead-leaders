@@ -88,6 +88,7 @@ aside {
     background-color: aquamarine;
 }
 
-.individuals{
-    
+.top10RandomCombo{
+    display: flex;
+    flex-flow: row wrap;
 }

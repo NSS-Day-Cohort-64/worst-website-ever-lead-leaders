@@ -2,6 +2,8 @@
     background-image: radial-gradient(rgb(245, 61, 92, rgb(74, 74, 250)));
     border-color: crimson;
     border-style: outset;
+    flex-direction: column;
+    height: 700px;
 }
 
 @keyframes pencillistanimation {
@@ -19,3 +21,4 @@
     background-color: red;
     animation-name: pencillistanimation;
     animation-duration: 10s;
+}
