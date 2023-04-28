@@ -1,3 +1,7 @@
+.body {
+    background-color: aqua;
+}
+
 .main-header{
     text-align: center;
     background-image: repeating-conic-gradient(red 10%, yellow 20%);
@@ -36,7 +40,7 @@
     text-shadow: 2px 5px 8px rgb(0, 251, 0);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     background-image: repeating-conic-gradient(aqua 10%, rgb(255, 102, 0) 20%);
 }
 
