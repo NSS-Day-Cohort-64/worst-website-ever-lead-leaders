@@ -1,3 +1,7 @@
+.body {
+    background-color: aqua;
+}
+
 .main-header{
     text-align: center;
     background-image: repeating-conic-gradient(red 10%, yellow 20%);
