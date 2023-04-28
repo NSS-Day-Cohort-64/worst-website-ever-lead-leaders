@@ -72,3 +72,18 @@ aside {
         83.3% { border-color: indigo; }
         100% { border-color: violet; }
 }
+
+.jokeImageCombo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.carved-pencil-imgs {
+    border:solid 15px brown;
+    width: 70%;
+    background-color: aquamarine;
+}
+
+.individuals{
+    
+}
