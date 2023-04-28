@@ -1,24 +1,10 @@
 .toppencils {
-    background-image: radial-gradient(rgb(245, 61, 92, rgb(74, 74, 250)));
-    border-color: crimson;
-    border-style: outset;
-    flex-direction: column;
-    height: 700px;
-}
 
-@keyframes pencillistanimation {
-    0%   {background-color:red; left:0px; top: 10px;}
-    25%  {background-color:rgb(241, 49, 91); left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:rgb(241, 153, 21); left:10px; top:200px;}
-    100% {background-color:red; left: 10px; top: 10px;}
+  padding: 40px;
+  margin: 40px;
+  border-color: tomato crimson;
+  border-style: outset;
+  font-family: 'Share Tech Mono', monospace;
+  font-style: italic;
+  background-image: url("https://i.pinimg.com/originals/79/af/e1/79afe1c9c44078602894a8613d06f201.gif")
   }
-
-.pencillist {
-    width: 90px;
-    height: 90px;
-    position: relative;
-    background-color: red;
-    animation-name: pencillistanimation;
-    animation-duration: 10s;
-}
